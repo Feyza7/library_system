@@ -1,0 +1,61 @@
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 30px auto;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+
+
+#back_list{
+    top: 20px;       /* Üstten 20px mesafe */
+    right: 20px;     /* Sağdan 20px mesafe */
+    background-color: #6c63ff; /* Arka plan rengi */
+    color: white;    /* Yazı rengi */
+    padding: 10px 20px; /* İçerik alanı */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    text-decoration: none; /* Altı çizili olmaması */
+    font-size: 16px; /* Font boyutu */
+    font-weight: bold; /* Font kalınlığı */
+    transition: background-color 0.3s ease; /* Hover efektinde geçiş */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th,td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px 18px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #6c63ff;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+color: #6c63ff;
+}
+a :hover{
+    color: red;
+    text-decoration: underline;
+}

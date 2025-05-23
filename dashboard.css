@@ -1,0 +1,111 @@
+/* Logout butonunu sağ üst köşeye yerleştir */
+#logout {
+    position: fixed; /* Sayfa kaydırıldığında da sabit kalır */
+    top: 20px;       /* Üstten 20px mesafe */
+    right: 20px;     /* Sağdan 20px mesafe */
+    background-color: #6c63ff; /* Arka plan rengi */
+    color: white;    /* Yazı rengi */
+    padding: 10px 20px; /* İçerik alanı */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    text-decoration: none; /* Altı çizili olmaması */
+    font-size: 16px; /* Font boyutu */
+    font-weight: bold; /* Font kalınlığı */
+    transition: background-color 0.3s ease; /* Hover efektinde geçiş */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logout:hover {
+    background-color: #6c63ff; /* Hover durumunda arka plan rengi */
+}
+#list{
+    top: 20px;       /* Üstten 20px mesafe */
+    right: 20px;     /* Sağdan 20px mesafe */
+    background-color: #6c63ff; /* Arka plan rengi */
+    color: white;    /* Yazı rengi */
+    padding: 10px 20px; /* İçerik alanı */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+    text-decoration: none; /* Altı çizili olmaması */
+    font-size: 16px; /* Font boyutu */
+    font-weight: bold; /* Font kalınlığı */
+    transition: background-color 0.3s ease; /* Hover efektinde geçiş */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Genel Tablo Stili */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+th, td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 16px;
+}
+
+th {
+    background-color: #6c63ff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+td a {
+    color: #f44336;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+td a:hover {
+    color: #d32f2f;
+}
+
+/* Hover Effect */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Alternatif satır renkleri */
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+/* Başlık */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button */
+button {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6c63ff;
+}

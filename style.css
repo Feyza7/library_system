@@ -1,0 +1,93 @@
+/*Başlık*/
+header {
+    background-color: #6c63ff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 0 0 20px 20px; /* oval alt köşeler */
+    margin-bottom: 2rem;
+}
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* Temel reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Ana form kutusu */
+  form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 20px; /* oval köşe */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Başlık*/ 
+  h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Input'lar */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 12px; /* oval kenar */
+    background-color: #f9f9f9;
+    transition: 0.3s;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #6c63ff;
+    background-color: #fff;
+  }
+  
+  /* Buton */
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #6c63ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px; /* oval */
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #574fd6;
+  }
+  
+  /* Bağlantılar */
+  a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
